@@ -1,0 +1,3 @@
+gensim
+wikipedia
+tensorflow==2.0
