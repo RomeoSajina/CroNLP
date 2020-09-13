@@ -1,6 +1,7 @@
 # CroNLP - Croatian NLP project
 Prikupljanje sadržaja sa stranica Wikipedije i evaluacija performansi modela Word2Vec, GloVe i FastText.
 
+<br>
 
 ## Instalacija
 
@@ -10,9 +11,11 @@ cd CroNLP
 pip install -r requirements.txt
 ```
 
+<br>
 
 ## Priprema teksta
 Za prikupljanje tekstova sa Wikipedije je potrebno pokrenuti `prepare_data.py` sa parametrom `--terms` gdje je potrebno navesti zarezom odvojene nazive wiki stranica sa kojih će se tekst prikupiti.
+
 **Info:** skripta odmah preuzima i sadržaj sa povezanih wiki stranica.
 
 
@@ -21,6 +24,7 @@ Npr.
 python prepare_data.py --terms "Formula 1,Dodatak:Popis vozača u Formuli 1" --lang hr --output ./data/output.txt
 ```
 
+<br>
 
 ## Evaluacija modela
 Nakon pripreme podataka (i pripreme testa analogije) može se pokrenuti evaluacija modela:
